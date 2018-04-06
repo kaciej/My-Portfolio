@@ -1,0 +1,275 @@
+/***************
+******NAVBAR****
+****************/
+.nav-custom{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav li {
+    text-align: right;
+    z-index: 1;
+    background-color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-collapse  {
+    text-align: right;
+    z-index: 1;
+    background-color: black;
+  }
+}
+
+.nav-links{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+}
+
+/***************
+******HEADER****
+****************/
+
+@media (max-width: 1233px) {
+  .hello {
+    display: none;
+  }
+}
+
+@media (max-width: 1233px) {
+  .im {
+    display: none;
+  }
+}
+
+.name-header{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 35vh;
+    font-size: 40px;
+}
+
+h4{
+   font-family: 'Lora', serif;
+   font-style: italic;
+   font-size: 20px;
+}
+
+.header{
+    background-color: black;
+    height: 90vh;
+    margin-top: -100px;
+}
+
+.white{
+    color: white;
+}
+
+.connect-header{
+    margin-top: 35vh;
+    transition:.2s;
+    display:inline-block;
+    padding-bottom:1vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+@media (max-width: 1233px){
+    .connect-header{
+        display: none;
+    }
+}
+
+.connect-header:hover{
+    color:#4AB6C4;
+}
+
+
+.angle-right{
+    display:inline-block;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    transition:.2s;
+    margin-left: 10px;
+    color:#4AB6C4;
+}
+
+.hello{
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.im{
+    font-size: 20px;
+    padding-top: 39vh;
+    padding-right: none;
+    float: right;
+}
+
+/***************
+****PROJECTS****
+****************/
+
+.projects-title{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.imgs {
+    width: 49%;
+    min-height: 35vh;
+    max-height: 35vh;
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+
+@media (max-width: 1233px) {
+  .imgs {
+    width: 100%;
+  }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.imgs:hover .overlay {
+    opacity: 1;
+}
+
+.hover-text {
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1233px) {
+  p {
+    display: none;
+  }
+}
+
+li {
+    list-style: none;
+}
+
+.tech{
+    float: left;
+}
+
+.code-btn{
+    background-color: white;
+    color: black;
+}
+
+.unschool-site{
+    font-size: 12px;
+    color: white !important;
+    display: block;
+    margin-bottom: 3px;
+}
+
+
+/***************
+******SKILLS****
+****************/
+
+.skill-space{
+    margin-top:10vh;
+    margin-bottom:10vh;
+}
+
+.skills{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.skills-title{
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+
+
+/***************
+******FORM******
+****************/
+
+.message{
+    margin-top: 15px;
+}
+
+.connect-form{
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+
+.form-control{
+    font-family: 'Roboto', sans-serif;
+}
+
+.connect-btn{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skew{
+    font-size: 25px;
+    color: black;
+    transition:.2s;
+}
+
+.skew:hover{
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+    font-style: italic;
+}
+
+
+/***************
+******FOOTER****
+****************/
+
+.footer{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-icons{
+    padding-left: .5em;
+    padding-right: .5em;
+    color: white;
+    transition: .5s;
+}
+
+.footer-icons:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+    text-decoration-line: none !important;
+    text-decoration: none !important;
+}
+
