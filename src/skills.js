@@ -41,13 +41,13 @@ class Skills extends Component {
 
                     <div className="col-md-3 col-sm-12 col-sm-offset-0">
                         <ul className="skills wow fadeInRight" data-wow-offset="70" data-wow-delay="1s" data-wow-iteration="1" >
-                            <li>Git</li>
+                            <li>Git / TFS</li>
                             <li>Mocha/Chai</li>
-                            <li>JSON</li>
-                            <li>Test Complete</li>
+                            <li>Selenium</li>
+                            <li>WinnAppDriver</li>
                             <li>Automated API Testing</li>
-                            <li>Postman</li>
-                            <li>VS/ VS Code</li>
+                            <li>Postman/Newman/Jenkins</li>
+                            <li>VS / VS Code</li>
                         </ul>
                     </div>
 
